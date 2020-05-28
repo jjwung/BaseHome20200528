@@ -372,14 +372,14 @@ under the License.
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/CodeSoft/Maven/apache-maven-3.6.3/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE.jar!/"/>
+          <root url="jar://D:/CodeSoft/Maven/apache-maven-3.6.3/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/"/>
         </CLASSES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/CodeSoft/Maven/apache-maven-3.6.3/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/"/>
+          <root url="jar://D:/CodeSoft/Maven/apache-maven-3.6.3/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE.jar!/"/>
         </CLASSES>
       </library>
     </orderEntry>
