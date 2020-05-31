@@ -3,9 +3,9 @@ package com.jj.springboot_demo.vo;
 import lombok.Data;
 
 @Data
-public class SignVO {
+public class ApplyForExamVO {
     // 身份证号码
-    private int id_card_num;
+    private String idCardNum;
 
     // 考生姓名
     private String name;

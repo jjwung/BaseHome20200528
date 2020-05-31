@@ -1,21 +1,21 @@
 package com.jj.springboot_demo.controller;
 
-import com.jj.springboot_demo.service.ExamSignUpService;
-import com.jj.springboot_demo.vo.SignVO;
+import com.jj.springboot_demo.service.ExampService;
+import com.jj.springboot_demo.vo.ApplyForExamVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/signUp")
-public class ExamSignUpController {
+@RequestMapping("/exam")
+public class ExamController {
     @Autowired
-    private ExamSignUpService signUpService;
+    private ExampService signUpService;
 
     // 请求
-    @RequestMapping("")
-    public boolean signUp(@RequestBody SignVO sign) {
-        return signUpService.signUp(sign);
+    @RequestMapping("/apply")
+    public ApplyForExamVO applyForExam(@RequestBody ApplyForExamVO sign) {
+        return signUpService.apply(sign);
     }
 }
